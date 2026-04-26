@@ -167,26 +167,38 @@ export default function Index() {
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=400&q=80"
-                alt="Токарные работы"
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=400&q=80"
+                alt="Токарный станок"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?auto=format&fit=crop&w=400&q=80"
-                alt="Фрезеровка"
+                src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?auto=format&fit=crop&w=400&q=80"
+                alt="Фрезеровка металла"
               />
             </div>
             <div className="social-item">
               <img
                 src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=400&q=80"
+                alt="Сварочные работы"
+              />
+            </div>
+            <div className="social-item">
+              <img
+                src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=400&q=80"
+                alt="Готовые запчасти"
+              />
+            </div>
+            <div className="social-item">
+              <img
+                src="https://images.unsplash.com/photo-1590959651373-a281d450e825?auto=format&fit=crop&w=400&q=80"
                 alt="Металлообработка"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80"
-                alt="Готовые детали"
+                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80"
+                alt="Производство деталей"
               />
             </div>
           </div>
