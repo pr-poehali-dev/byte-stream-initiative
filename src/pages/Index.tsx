@@ -265,7 +265,7 @@ export default function Index() {
         </div>
         <div className="footer-bottom">
           <p>© 2024 МЕТА*ЦЕХЪ. Все права защищены.</p>
-          <p>Изготовление запчастей под заказ</p>
+          <p>ИП Черкасов С.А. ОГРНИП 326527500000122</p>
         </div>
       </footer>
     </>
