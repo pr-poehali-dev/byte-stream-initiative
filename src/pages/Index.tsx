@@ -264,7 +264,7 @@ export default function Index() {
           </ul>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 ТОКАРНЯ. Все права защищены.</p>
+          <p>© 2026 ТОКАРНЯ. Все права защищены.</p>
           <p>ИП Черкасов С.А. ОГРНИП 326527500000122</p>
         </div>
       </footer>
