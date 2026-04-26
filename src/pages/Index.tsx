@@ -4,77 +4,76 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">МЕТА*ЦЕХЪ</div>
         <nav>
-          <a href="#">Меню</a>
+          <a href="#">Услуги</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Проекты</a>
+          <a href="#">Контакты</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Заказать детали</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
-              <br />
-              ТОЛЬКО <span>ВКУС</span>
+              ТОЧНО
+              <br />В <span>МЕТАЛЛЕ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Токарно-фрезерная мастерская. Изготавливаем запчасти для хлебопекарного, кондитерского и мясного оборудования. Сварка, ремонт, 3D-моделирование.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Оставить заявку
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
-                Смотреть меню
+                Наши услуги
               </button>
             </div>
           </div>
-          <div className="hero-img">
+          <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/2598bf85-337c-4872-9f95-aa07fc632565/files/061b5fef-d9d9-41bf-abbe-873c747e1f83.jpg')" }}>
             <div className="sticker">
-              СВЕЖАК
+              ЛЮБОЙ
               <br />
-              КАЖДЫЙ ДЕНЬ
+              МЕТАЛЛ
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #ТОЧНОСТЬ
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              СТАЛЬ
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * ТОКАРНЫЕ РАБОТЫ * ФРЕЗЕРОВКА * СВАРКА * РЕМОНТ ОБОРУДОВАНИЯ * ЗАПЧАСТИ ПОД ЗАКАЗ * 3D-МОДЕЛИРОВАНИЕ * КОНСТРУКТОРСКИЕ УСЛУГИ * ЛЮБАЯ СПЕЦТЕХНИКА *
+            ТОКАРНЫЕ РАБОТЫ * ФРЕЗЕРОВКА * СВАРКА * РЕМОНТ ОБОРУДОВАНИЯ * ЗАПЧАСТИ ПОД ЗАКАЗ * 3D-МОДЕЛИРОВАНИЕ * КОНСТРУКТОРСКИЕ УСЛУГИ * ЛЮБАЯ СПЕЦТЕХНИКА
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">НАШИ УСЛУГИ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
               style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}
             >
-              Всё меню
+              Все услуги
             </a>
           </div>
 
           <div className="menu-grid">
-            {/* Item 1 */}
+            {/* Запчасти */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">Топ запрос</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://cdn.poehali.dev/projects/2598bf85-337c-4872-9f95-aa07fc632565/files/8bd76a82-8862-41a4-a3bf-a881f0939520.jpg"
+                alt="Изготовление запчастей"
               />
               <div className="menu-card-body">
                 <div
@@ -85,23 +84,23 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Запчасти под заказ</h3>
+                  <span className="price">от 500 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Изготовление деталей для хлебопекарного, кондитерского и мясного оборудования. Точно по чертежу или образцу.
                 </p>
               </div>
             </div>
 
-            {/* Item 2 */}
+            {/* Сварка */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                Надёжно
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://cdn.poehali.dev/projects/2598bf85-337c-4872-9f95-aa07fc632565/files/8b2ac362-22f0-40ed-97b4-1b2ea93d497d.jpg"
+                alt="Сварочные работы"
               />
               <div className="menu-card-body">
                 <div
@@ -112,21 +111,21 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Сварочные работы</h3>
+                  <span className="price">от 800 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Ручная и полуавтоматическая сварка. Конструкции, рамы, ремонт корпусов оборудования и спецтехники.</p>
               </div>
             </div>
 
-            {/* Item 3 */}
+            {/* 3D-моделирование */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Популярное
+                Хай-тек
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://cdn.poehali.dev/projects/2598bf85-337c-4872-9f95-aa07fc632565/files/4c6f2fca-3e3c-4cf5-90e4-aec9706aced3.jpg"
+                alt="3D-моделирование"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +136,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>3D-моделирование</h3>
+                  <span className="price">от 1 500 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Конструкторские услуги и 3D-моделирование под производство. Чертежи, разработка нестандартных деталей.
                 </p>
               </div>
             </div>
@@ -150,13 +149,12 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">СДЕЛАЕМ. ТОЧНО. В СРОК.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Работаем с предприятиями пищевой промышленности, мясопереработки, хлебозаводами и кондитерскими фабриками. Ремонтируем и изготавливаем запчасти для любого оборудования — от простой втулки до сложного узла. Принимаем заявки по чертежам, образцам или описанию.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
-              Наша история
+              О нашей мастерской
             </button>
           </div>
           <div className="vibe-img"></div>
@@ -164,31 +162,31 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            НАШИ РАБОТЫ
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                src="https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=400&q=80"
+                alt="Токарные работы"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?auto=format&fit=crop&w=400&q=80"
+                alt="Фрезеровка"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=400&q=80"
+                alt="Металлообработка"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80"
+                alt="Готовые детали"
               />
             </div>
           </div>
@@ -197,9 +195,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">МЕТА*ЦЕХЪ</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Токарно-фрезерная мастерская. Изготовление и ремонт запчастей для промышленного оборудования, сварка, 3D-моделирование.
           </p>
         </div>
         <div className="footer-links">
@@ -207,7 +205,7 @@ export default function Index() {
           <ul>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Меню
+                Услуги
               </a>
             </li>
             <li>
@@ -217,29 +215,45 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                Проекты
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Контакты
               </a>
             </li>
           </ul>
         </div>
         <div className="footer-links">
-          <h4>Часы работы</h4>
+          <h4>Режим работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн–Пт: 8:00–18:00</li>
+            <li>Сб: 9:00–15:00</li>
+            <li>Вс: выходной</li>
+            <li style={{ marginTop: "10px" }}>
+              <strong>Принимаем заявки 24/7</strong>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-links">
+          <h4>Контакты</h4>
+          <ul>
+            <li>
+              <a href="tel:+79000000000" style={{ color: "inherit", textDecoration: "none" }}>
+                +7 (900) 000-00-00
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@metazeh.ru" style={{ color: "inherit", textDecoration: "none" }}>
+                info@metazeh.ru
+              </a>
+            </li>
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+          <p>© 2024 МЕТА*ЦЕХЪ. Все права защищены.</p>
+          <p>Изготовление запчастей под заказ</p>
         </div>
       </footer>
     </>
