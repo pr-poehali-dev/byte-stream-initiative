@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">МЕТА*ЦЕХЪ</div>
+        <div className="logo">ТОКАРНЯ</div>
         <nav>
           <a href="#">Услуги</a>
           <a href="#">О нас</a>
@@ -195,7 +195,7 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">МЕТА*ЦЕХЪ</div>
+          <div className="footer-logo">ТОКАРНЯ</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
             Токарно-фрезерная мастерская. Изготовление и ремонт запчастей для промышленного оборудования, сварка, 3D-моделирование.
           </p>
