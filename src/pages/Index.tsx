@@ -240,13 +240,13 @@ export default function Index() {
           <h4>Контакты</h4>
           <ul>
             <li>
-              <a href="tel:+79000000000" style={{ color: "inherit", textDecoration: "none" }}>
-                +7 (900) 000-00-00
+              <a href="tel:+79043983859" style={{ color: "inherit", textDecoration: "none" }}>
+                +7 (904) 398-38-59
               </a>
             </li>
             <li>
-              <a href="mailto:info@metazeh.ru" style={{ color: "inherit", textDecoration: "none" }}>
-                info@metazeh.ru
+              <a href="mailto:tokarnya-servis@yandex.ru" style={{ color: "inherit", textDecoration: "none" }}>
+                tokarnya-servis@yandex.ru
               </a>
             </li>
           </ul>
